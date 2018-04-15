@@ -53,8 +53,6 @@ pub mod graphmap;
 mod graph_impl;
 pub mod dot;
 pub mod unionfind;
-mod dijkstra;
-mod astar;
 pub mod csr;
 mod iter_format;
 mod iter_utils;
