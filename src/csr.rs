@@ -705,7 +705,7 @@ mod tests {
     use visit::Dfs;
     use visit::VisitMap;
     use algo::tarjan_scc;
-    use algo::bellman_ford;
+    use algo::pathfinding::bellman_ford;
 
     #[test]
     fn csr1() {
