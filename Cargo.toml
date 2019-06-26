@@ -42,7 +42,7 @@ itertools = { version = "0.7.0", default-features = false }
 [features]
 default = ["graphmap", "stable_graph"]
 graphmap = ["indexmap"]
-serde-1 = ["serde", "serde_derive"]
+serde-1 = ["serde", "serde_derive", "indexmap/serde-1"]
 stable_graph = []
 check = ["quickcheck", "rand"]
 
